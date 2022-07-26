@@ -68,3 +68,10 @@ button:hover{
     margin-bottom: 1rem;
 }
 div:last-child{margin-bottom: 0;}
+
+@media (max-width: 700px) {
+    .capped-width{
+        min-width: 350px;
+        max-width: 500px;
+    }
+}
