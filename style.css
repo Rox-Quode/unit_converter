@@ -76,6 +76,9 @@ button:hover{
 div:last-child{margin-bottom: 0;}
 
 @media (max-width: 700px) {
+    body {
+        padding: 0.5em;
+    }
     .capped-width{
         min-width: 300px;
         max-width: 500px;
